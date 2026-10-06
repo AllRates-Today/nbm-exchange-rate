@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'MDL', { apiKey: 'art_live_...' });
 {
   bank: 'nbm',
   name: 'National Bank of Moldova',
-  rate_date: '2026-09-25',   // National Bank of Moldova's own publication date
+  rate_date: '2026-10-06',   // National Bank of Moldova's own publication date
   source: 'USD',
   target: 'MDL',
-  rate: 17.7706,
+  rate: 17.9297,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'nbm',
   name: 'National Bank of Moldova',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "MDL", "type": "reference", "value": 17.7706 },
+    { "base": "USD", "quote": "MDL", "type": "reference", "value": 17.9297 },
     // … the rest of the published table (40 currencies vs MDL)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'nbm-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'MDL', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'MDL', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'MDL',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 17.7706, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 17.9297, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
