@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/nbm-exchange-rate.svg)](https://github.com/AllRates-Today/nbm-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/nbm-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/MDL today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbm%3Fsource%3DUSD%26target%3DMDL&query=%24.rate&label=USD%2FMDL%20published%20by%20National%20Bank%20of%20Moldova&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbm/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fnbm%3Fsource%3DUSD%26target%3DMDL&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/nbm/)
 
 **Official National Bank of Moldova (Moldova) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers National Bank of Moldova itself prints, every business day.**
 
@@ -32,6 +34,59 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full National Bank of Moldova table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by National Bank of Moldova — 40 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AED | MDL | reference | 4.8735 |
+| ALL | MDL | reference | 0.21832 |
+| AMD | MDL | reference | 0.0494 |
+| AUD | MDL | reference | 12.4336 |
+| AZN | MDL | reference | 10.5321 |
+| BYN | MDL | reference | 5.8436 |
+| CAD | MDL | reference | 12.5575 |
+| CHF | MDL | reference | 21.4683 |
+| CNY | MDL | reference | 2.6703 |
+| CZK | MDL | reference | 0.82 |
+| DKK | MDL | reference | 2.6784 |
+| EUR | MDL | reference | 20.0179 |
+| GBP | MDL | reference | 23.63 |
+| GEL | MDL | reference | 6.8834 |
+| HKD | MDL | reference | 2.281 |
+| HUF | MDL | reference | 0.054612 |
+| ILS | MDL | reference | 5.8109 |
+| INR | MDL | reference | 0.18494 |
+| ISK | MDL | reference | 0.14612 |
+| JPY | MDL | reference | 0.113121 |
+| KGS | MDL | reference | 0.20337 |
+| KRW | MDL | reference | 0.013308 |
+| KWD | MDL | reference | 57.5641 |
+| KZT | MDL | reference | 0.03964 |
+| MKD | MDL | reference | 0.32522 |
+| MYR | MDL | reference | 4.3743 |
+| NOK | MDL | reference | 1.8689 |
+| NZD | MDL | reference | 10.0044 |
+| PLN | MDL | reference | 4.5709 |
+| RON | MDL | reference | 3.7457 |
+| RSD | MDL | reference | 0.170506 |
+| RUB | MDL | reference | 0.2095 |
+| SEK | MDL | reference | 1.7859 |
+| TJS | MDL | reference | 1.9406 |
+| TMT | MDL | reference | 5.1146 |
+| TRY | MDL | reference | 0.3626 |
+| UAH | MDL | reference | 0.3987 |
+| USD | MDL | reference | 17.9003 |
+| UZS | MDL | reference | 0.001515 |
+| XDR | MDL | reference | 24.1975 |
+
+Source: [Official rates published by NBM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
