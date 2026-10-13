@@ -42,50 +42,50 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-12** by National Bank of Moldova — 40 rates. Updated 2026-10-12.
+Published **2026-10-13** by National Bank of Moldova — 40 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MDL | reference | 4.8743 |
-| ALL | MDL | reference | 0.21887 |
-| AMD | MDL | reference | 0.04938 |
-| AUD | MDL | reference | 12.4893 |
-| AZN | MDL | reference | 10.5346 |
-| BYN | MDL | reference | 5.8855 |
-| CAD | MDL | reference | 12.5751 |
-| CHF | MDL | reference | 21.5442 |
-| CNY | MDL | reference | 2.6752 |
-| CZK | MDL | reference | 0.824 |
-| DKK | MDL | reference | 2.6845 |
-| EUR | MDL | reference | 20.0678 |
-| GBP | MDL | reference | 23.6825 |
-| GEL | MDL | reference | 6.8821 |
-| HKD | MDL | reference | 2.2814 |
-| HUF | MDL | reference | 0.054958 |
-| ILS | MDL | reference | 5.858 |
-| INR | MDL | reference | 0.1851 |
-| ISK | MDL | reference | 0.14669 |
-| JPY | MDL | reference | 0.113087 |
-| KGS | MDL | reference | 0.20388 |
-| KRW | MDL | reference | 0.013351 |
-| KWD | MDL | reference | 57.5751 |
-| KZT | MDL | reference | 0.03942 |
-| MKD | MDL | reference | 0.32546 |
-| MYR | MDL | reference | 4.3822 |
-| NOK | MDL | reference | 1.8695 |
-| NZD | MDL | reference | 10.0437 |
-| PLN | MDL | reference | 4.5806 |
-| RON | MDL | reference | 3.7575 |
-| RSD | MDL | reference | 0.170916 |
-| RUB | MDL | reference | 0.2103 |
-| SEK | MDL | reference | 1.7955 |
-| TJS | MDL | reference | 1.9411 |
-| TMT | MDL | reference | 5.1157 |
-| TRY | MDL | reference | 0.3628 |
-| UAH | MDL | reference | 0.3986 |
-| USD | MDL | reference | 17.9033 |
-| UZS | MDL | reference | 0.001506 |
-| XDR | MDL | reference | 24.2288 |
+| AED | MDL | reference | 4.8958 |
+| ALL | MDL | reference | 0.2195 |
+| AMD | MDL | reference | 0.04964 |
+| AUD | MDL | reference | 12.5336 |
+| AZN | MDL | reference | 10.5832 |
+| BYN | MDL | reference | 5.9732 |
+| CAD | MDL | reference | 12.6082 |
+| CHF | MDL | reference | 21.5872 |
+| CNY | MDL | reference | 2.6865 |
+| CZK | MDL | reference | 0.8244 |
+| DKK | MDL | reference | 2.6898 |
+| EUR | MDL | reference | 20.1059 |
+| GBP | MDL | reference | 23.794 |
+| GEL | MDL | reference | 6.924 |
+| HKD | MDL | reference | 2.2915 |
+| HUF | MDL | reference | 0.055047 |
+| ILS | MDL | reference | 5.8481 |
+| INR | MDL | reference | 0.18779 |
+| ISK | MDL | reference | 0.14718 |
+| JPY | MDL | reference | 0.113368 |
+| KGS | MDL | reference | 0.20563 |
+| KRW | MDL | reference | 0.013494 |
+| KWD | MDL | reference | 57.7507 |
+| KZT | MDL | reference | 0.03992 |
+| MKD | MDL | reference | 0.32701 |
+| MYR | MDL | reference | 4.403 |
+| NOK | MDL | reference | 1.8774 |
+| NZD | MDL | reference | 10.0638 |
+| PLN | MDL | reference | 4.5825 |
+| RON | MDL | reference | 3.7675 |
+| RSD | MDL | reference | 0.171253 |
+| RUB | MDL | reference | 0.2145 |
+| SEK | MDL | reference | 1.7936 |
+| TJS | MDL | reference | 1.9492 |
+| TMT | MDL | reference | 5.1393 |
+| TRY | MDL | reference | 0.3642 |
+| UAH | MDL | reference | 0.3995 |
+| USD | MDL | reference | 17.9822 |
+| UZS | MDL | reference | 0.001509 |
+| XDR | MDL | reference | 24.3113 |
 
 Source: [Official rates published by NBM, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/nbm/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
