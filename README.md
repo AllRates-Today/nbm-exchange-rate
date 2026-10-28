@@ -47,50 +47,50 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-27 by National Bank of Moldova — 40 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-28 by National Bank of Moldova — 40 rates. Updated 2026-10-28.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MDL | reference | 4.9165 |
-| ALL | MDL | reference | 0.22268 |
-| AMD | MDL | reference | 0.04996 |
-| AUD | MDL | reference | 12.6922 |
-| AZN | MDL | reference | 10.6303 |
-| BYN | MDL | reference | 6.1302 |
-| CAD | MDL | reference | 12.8846 |
-| CHF | MDL | reference | 21.8474 |
-| CNY | MDL | reference | 2.7078 |
-| CZK | MDL | reference | 0.8298 |
-| DKK | MDL | reference | 2.7046 |
-| EUR | MDL | reference | 20.2161 |
-| GBP | MDL | reference | 24.1041 |
-| GEL | MDL | reference | 6.9569 |
-| HKD | MDL | reference | 2.3018 |
-| HUF | MDL | reference | 0.055052 |
-| ILS | MDL | reference | 5.8642 |
-| INR | MDL | reference | 0.18969 |
-| ISK | MDL | reference | 0.14821 |
-| JPY | MDL | reference | 0.114727 |
-| KGS | MDL | reference | 0.20578 |
-| KRW | MDL | reference | 0.013631 |
-| KWD | MDL | reference | 58.0922 |
-| KZT | MDL | reference | 0.03973 |
-| MKD | MDL | reference | 0.32829 |
-| MYR | MDL | reference | 4.4177 |
-| NOK | MDL | reference | 1.9345 |
-| NZD | MDL | reference | 10.2643 |
-| PLN | MDL | reference | 4.5873 |
-| RON | MDL | reference | 3.7807 |
-| RSD | MDL | reference | 0.172017 |
-| RUB | MDL | reference | 0.224 |
-| SEK | MDL | reference | 1.8151 |
-| TJS | MDL | reference | 1.9618 |
-| TMT | MDL | reference | 5.1606 |
-| TRY | MDL | reference | 0.3626 |
-| UAH | MDL | reference | 0.3958 |
-| USD | MDL | reference | 18.0582 |
-| UZS | MDL | reference | 0.001526 |
-| XDR | MDL | reference | 24.4638 |
+| AED | MDL | reference | 4.9287 |
+| ALL | MDL | reference | 0.22229 |
+| AMD | MDL | reference | 0.05002 |
+| AUD | MDL | reference | 12.7274 |
+| AZN | MDL | reference | 10.6526 |
+| BYN | MDL | reference | 6.118 |
+| CAD | MDL | reference | 12.9112 |
+| CHF | MDL | reference | 21.8426 |
+| CNY | MDL | reference | 2.7148 |
+| CZK | MDL | reference | 0.8287 |
+| DKK | MDL | reference | 2.6994 |
+| EUR | MDL | reference | 20.176 |
+| GBP | MDL | reference | 24.1152 |
+| GEL | MDL | reference | 6.9788 |
+| HKD | MDL | reference | 2.3078 |
+| HUF | MDL | reference | 0.05497 |
+| ILS | MDL | reference | 5.9283 |
+| INR | MDL | reference | 0.1903 |
+| ISK | MDL | reference | 0.14792 |
+| JPY | MDL | reference | 0.114754 |
+| KGS | MDL | reference | 0.20697 |
+| KRW | MDL | reference | 0.013636 |
+| KWD | MDL | reference | 58.186 |
+| KZT | MDL | reference | 0.03955 |
+| MKD | MDL | reference | 0.32756 |
+| MYR | MDL | reference | 4.4273 |
+| NOK | MDL | reference | 1.9411 |
+| NZD | MDL | reference | 10.3197 |
+| PLN | MDL | reference | 4.58 |
+| RON | MDL | reference | 3.772 |
+| RSD | MDL | reference | 0.171712 |
+| RUB | MDL | reference | 0.2248 |
+| SEK | MDL | reference | 1.8197 |
+| TJS | MDL | reference | 1.966 |
+| TMT | MDL | reference | 5.1719 |
+| TRY | MDL | reference | 0.363 |
+| UAH | MDL | reference | 0.3968 |
+| USD | MDL | reference | 18.1032 |
+| UZS | MDL | reference | 0.00152 |
+| XDR | MDL | reference | 24.4886 |
 
 </details>
 
