@@ -47,50 +47,50 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by National Bank of Moldova — 40 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by National Bank of Moldova — 40 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AED | MDL | reference | 4.9287 |
-| ALL | MDL | reference | 0.22229 |
-| AMD | MDL | reference | 0.05002 |
-| AUD | MDL | reference | 12.7274 |
-| AZN | MDL | reference | 10.6526 |
-| BYN | MDL | reference | 6.118 |
-| CAD | MDL | reference | 12.9112 |
-| CHF | MDL | reference | 21.8426 |
-| CNY | MDL | reference | 2.7148 |
-| CZK | MDL | reference | 0.8287 |
-| DKK | MDL | reference | 2.6994 |
-| EUR | MDL | reference | 20.176 |
-| GBP | MDL | reference | 24.1152 |
-| GEL | MDL | reference | 6.9788 |
-| HKD | MDL | reference | 2.3078 |
-| HUF | MDL | reference | 0.05497 |
-| ILS | MDL | reference | 5.9283 |
-| INR | MDL | reference | 0.1903 |
-| ISK | MDL | reference | 0.14792 |
-| JPY | MDL | reference | 0.114754 |
-| KGS | MDL | reference | 0.20697 |
-| KRW | MDL | reference | 0.013636 |
-| KWD | MDL | reference | 58.186 |
-| KZT | MDL | reference | 0.03955 |
-| MKD | MDL | reference | 0.32756 |
-| MYR | MDL | reference | 4.4273 |
-| NOK | MDL | reference | 1.9411 |
-| NZD | MDL | reference | 10.3197 |
-| PLN | MDL | reference | 4.58 |
-| RON | MDL | reference | 3.772 |
-| RSD | MDL | reference | 0.171712 |
-| RUB | MDL | reference | 0.2248 |
-| SEK | MDL | reference | 1.8197 |
-| TJS | MDL | reference | 1.966 |
-| TMT | MDL | reference | 5.1719 |
-| TRY | MDL | reference | 0.363 |
-| UAH | MDL | reference | 0.3968 |
-| USD | MDL | reference | 18.1032 |
-| UZS | MDL | reference | 0.00152 |
-| XDR | MDL | reference | 24.4886 |
+| AED | MDL | reference | 4.9246 |
+| ALL | MDL | reference | 0.22165 |
+| AMD | MDL | reference | 0.05015 |
+| AUD | MDL | reference | 12.7241 |
+| AZN | MDL | reference | 10.6403 |
+| BYN | MDL | reference | 6.1352 |
+| CAD | MDL | reference | 12.8885 |
+| CHF | MDL | reference | 21.8009 |
+| CNY | MDL | reference | 2.7131 |
+| CZK | MDL | reference | 0.8263 |
+| DKK | MDL | reference | 2.6934 |
+| EUR | MDL | reference | 20.1303 |
+| GBP | MDL | reference | 24.0347 |
+| GEL | MDL | reference | 6.9731 |
+| HKD | MDL | reference | 2.3057 |
+| HUF | MDL | reference | 0.054847 |
+| ILS | MDL | reference | 5.7989 |
+| INR | MDL | reference | 0.18994 |
+| ISK | MDL | reference | 0.14802 |
+| JPY | MDL | reference | 0.114546 |
+| KGS | MDL | reference | 0.20681 |
+| KRW | MDL | reference | 0.01347 |
+| KWD | MDL | reference | 58.1381 |
+| KZT | MDL | reference | 0.03972 |
+| MKD | MDL | reference | 0.32681 |
+| MYR | MDL | reference | 4.4372 |
+| NOK | MDL | reference | 1.9462 |
+| NZD | MDL | reference | 10.1456 |
+| PLN | MDL | reference | 4.5695 |
+| RON | MDL | reference | 3.7624 |
+| RSD | MDL | reference | 0.171272 |
+| RUB | MDL | reference | 0.2246 |
+| SEK | MDL | reference | 1.821 |
+| TJS | MDL | reference | 1.9635 |
+| TMT | MDL | reference | 5.1668 |
+| TRY | MDL | reference | 0.3629 |
+| UAH | MDL | reference | 0.3967 |
+| USD | MDL | reference | 18.0881 |
+| UZS | MDL | reference | 0.001512 |
+| XDR | MDL | reference | 24.4518 |
 
 </details>
 
@@ -255,6 +255,7 @@ The National Bank of Moldova sets the official leu exchange rate each working af
 
 - Publisher's own page: [Official exchange rates](https://www.bnm.md/en/content/official-exchange-rates) · [www.bnm.md](https://www.bnm.md)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [National Bank of Moldova rates page](https://allratestoday.com/central-bank-rates-api/nbm/)
+- In the API: usually by **02:20 UTC** (measured over the last 11 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
