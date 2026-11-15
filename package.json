@@ -1,6 +1,6 @@
 {
   "name": "nbm-exchange-rate",
-  "version": "1.3.30",
+  "version": "1.3.31",
   "description": "Official National Bank of Moldova (Moldova) daily exchange rates — 40 currencies vs MDL, history since 1994. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "nbm",
@@ -10,6 +10,7 @@
     "moldova",
     "exchange-rate",
     "exchange-rates",
+    "exchange-rate-api",
     "exchangerate",
     "exchange rate",
     "exchange rates",
